@@ -908,7 +908,9 @@ body {
     }
 
     .hero-visual {
-        display: none;
+        display: block;
+        margin-top: 3rem;
+        transform: scale(0.9);
     }
 
     .section-title {

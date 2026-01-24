@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --primary: #6366f1;
     --primary-dark: #4f46e5;
     --secondary: #a855f7;
@@ -130,6 +130,7 @@ body {
 .logo-img {
     height: 45px;
     width: auto;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.8));
 }
 
 .nav {
@@ -499,7 +500,7 @@ body {
     margin: 0 auto;
 }
 
-/* Benefícios Section - Soft White with Purple Glow */
+/* BenefÃ­cios Section - Soft White with Purple Glow */
 .beneficios-section {
     background: linear-gradient(180deg,
             rgba(99, 102, 241, 0.08) 0%,
@@ -729,7 +730,7 @@ body {
     }
 }
 
-/* Denominações Section - Soft Warm Glow */
+/* DenominaÃ§Ãµes Section - Soft Warm Glow */
 .denominacoes {
     background: linear-gradient(180deg,
             rgba(236, 72, 153, 0.06) 0%,
@@ -738,7 +739,7 @@ body {
     position: relative;
 }
 
-/* Denominações Grid */
+/* DenominaÃ§Ãµes Grid */
 .denom-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -932,7 +933,7 @@ body {
     color: var(--text-muted);
 }
 
-/* Histórias de Sucesso - Warm Rose Glow */
+/* HistÃ³rias de Sucesso - Warm Rose Glow */
 .historias-section {
     background: linear-gradient(180deg,
             rgba(236, 72, 153, 0.1) 0%,
@@ -1177,6 +1178,7 @@ body {
 .footer-logo {
     height: 40px;
     width: auto;
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 1)) drop-shadow(0 0 30px rgba(255, 255, 255, 0.8));
 }
 
 .footer-brand p {
@@ -1282,4 +1284,140 @@ body {
     .proof-number {
         font-size: 2rem;
     }
+}
+
+/* Free Plan Updates */
+.plan-intro {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.plan-intro strong {
+    color: var(--text);
+    font-weight: 600;
+}
+
+.plan-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.plan-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+    opacity: 0.5;
+}
+
+.plan-features {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: left;
+}
+
+.plan-features li {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.feature-icon {
+    font-size: 1.5rem;
+    line-height: 1;
+    background: rgba(255, 255, 255, 0.05);
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid var(--glass-border);
+    flex-shrink: 0;
+}
+
+.feature-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.feature-text strong {
+    color: var(--text);
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.feature-text span {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+    .plan-card {
+        padding: 1.5rem;
+    }
+
+    .feature-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
+
+    .feature-text strong {
+        font-size: 1rem;
+    }
+}
+
+/* Store Buttons */
+.store-btn strong {
+    display: block;
+    font-size: 1rem;
+}
+
+.store-btn.featured {
+    background: var(--gradient);
+    border: none;
+    padding: 1rem 2rem;
+    box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
+}
+
+.store-btn.featured:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(99, 102, 241, 0.6);
+}
+
+.store-btn.featured small,
+.store-btn.featured strong,
+.store-btn.featured svg {
+    color: white;
+}
+
+.store-btn.secondary {
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    opacity: 0.8;
+}
+
+.store-btn.secondary:hover {
+    background: var(--glass);
+    border-color: var(--text-muted);
+    opacity: 1;
+    transform: translateY(-2px);
 }

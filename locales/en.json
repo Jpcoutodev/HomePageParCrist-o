@@ -101,5 +101,9 @@
         "legal_security": "Security (CSAE)",
         "company_contact": "Contact",
         "rights": "© 2024 Christian Match. All rights reserved. Made with ❤️ and faith."
+    },
+    "legal": {
+        "backHome": "Back to Home",
+        "downloadFree": "Download Free"
     }
 }

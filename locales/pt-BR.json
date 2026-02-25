@@ -101,5 +101,9 @@
         "legal_security": "Segurança (CSAE)",
         "company_contact": "Contato",
         "rights": "© 2024 Par Cristão. Todos os direitos reservados. Feito com ❤️ e fé."
+    },
+    "legal": {
+        "backHome": "Voltar para Início",
+        "downloadFree": "Baixar Grátis"
     }
 }

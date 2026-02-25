@@ -59,7 +59,22 @@
         "tag": "Historias de Éxito",
         "title": "Personas reales encontrando <span class=\"gradient-text\">amor verdadero</span>",
         "desc": "Compartimos historias de usuarios que encontraron su pareja ideal a través de Par Cristiano",
-        "rating": "Calificación en la Tienda"
+        "rating": "Calificación en la Tienda",
+        "t1_quote": "\"Nos conocimos en Par Cristiano y desde la primera conversación sentimos una conexión especial. ¡Hoy estamos comprometidos y planeando nuestra boda en la iglesia!\"",
+        "t1_names": "Fernanda & Ricardo",
+        "t1_location": "Católicos • São Paulo",
+        "t2_quote": "\"Después de años buscando a alguien que compartiera mi fe, encontré a Lucas. ¡Él es la respuesta a mis oraciones!\"",
+        "t2_names": "Camila & Lucas",
+        "t2_location": "Evangélicos • Rio de Janeiro",
+        "t3_quote": "\"¡Me encantó poder filtrar por denominación! Encontré personas que entienden mi fe y valores. ¡Hice amistades increíbles!\"",
+        "t3_names": "Juliana Santos",
+        "t3_location": "Asamblea • Belo Horizonte",
+        "t4_quote": "\"Después del divorcio, pensé que no encontraría a alguien. Par Cristiano me mostró que Dios todavía tenía planes para mí. ¡Encontré a mi María!\"",
+        "t4_names": "Roberto & Maria",
+        "t4_location": "Católicos • Curitiba",
+        "t5_quote": "\"A diferencia de otras apps, aquí las personas realmente buscan algo serio. El ambiente es respetuoso y centrado en la fe.\"",
+        "t5_names": "Pedro Almeida",
+        "t5_location": "Bautista • Salvador"
     },
     "download": {
         "tag": "Comienza Hoy",

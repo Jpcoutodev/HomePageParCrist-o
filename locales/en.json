@@ -59,7 +59,22 @@
         "tag": "Success Stories",
         "title": "Real people finding <span class=\"gradient-text\">true love</span>",
         "desc": "We share stories of users who found their ideal match through Christian Match",
-        "rating": "Store Rating"
+        "rating": "Store Rating",
+        "t1_quote": "\"We met on Christian Match and felt a special connection from our first conversation. Today we're engaged and planning our church wedding!\"",
+        "t1_names": "Fernanda & Ricardo",
+        "t1_location": "Catholics • São Paulo",
+        "t2_quote": "\"After years searching for someone who shared my faith, I found Lucas. He is the answer to my prayers!\"",
+        "t2_names": "Camila & Lucas",
+        "t2_location": "Evangelicals • Rio de Janeiro",
+        "t3_quote": "\"I loved being able to filter by denomination! I found people who understand my faith and values. Made incredible friendships!\"",
+        "t3_names": "Juliana Santos",
+        "t3_location": "Assembly • Belo Horizonte",
+        "t4_quote": "\"After divorce, I thought I wouldn't find someone. Christian Match showed me that God still had plans for me. Found my Maria!\"",
+        "t4_names": "Roberto & Maria",
+        "t4_location": "Catholics • Curitiba",
+        "t5_quote": "\"Unlike other apps, here people truly seek something serious. The environment is respectful and faith-centered.\"",
+        "t5_names": "Pedro Almeida",
+        "t5_location": "Baptist • Salvador"
     },
     "download": {
         "tag": "Start Today",

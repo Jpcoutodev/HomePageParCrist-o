@@ -1,0 +1,52 @@
+{
+    "header": {
+        "login": "Iniciar Sesión",
+        "createAccount": "Crear Cuenta Gratis"
+    },
+    "hero": {
+        "badge": "Disponible para iOS y Android",
+        "title": "Citas Cristianas con Propósito",
+        "subtitle": "Conéctate con solteros cristianos que comparten tu fe, valores y principios.",
+        "cta": "Crear Cuenta Gratis",
+        "downloadApp": "Descarga la Aplicación",
+        "users": "+100k",
+        "usersText": "cristianos buscando una relación seria",
+        "reviewsText": "1000 reseñas"
+    },
+    "features": {
+        "badge": "¿Por qué la aplicación?",
+        "title": "Hecho para Cristianos",
+        "f1_title": "Enfoque en el Propósito",
+        "f1_desc": "Perfiles detallados que cubren ministerio, hábitos espirituales y visión familiar.",
+        "f2_title": "Ambiente Seguro",
+        "f2_desc": "Moderación activa y verificación de perfiles para garantizar un espacio saludable.",
+        "f3_title": "Conexiones Reales",
+        "f3_desc": "Algoritmo enfocado en la compatibilidad de valores y propósitos de vida."
+    },
+    "howItWorks": {
+        "badge": "¿Cómo funciona?",
+        "title": "Encuentra tu Pareja Cristiana",
+        "step1_title": "Crea tu perfil",
+        "step1_desc": "Completa tus datos, denominación, ministerios y lo que buscas.",
+        "step2_title": "Conéctate",
+        "step2_desc": "Mira perfiles compatibles, da me gusta y envía mensajes a quienes toquen tu corazón.",
+        "step3_title": "Crezcan Juntos",
+        "step3_desc": "Construye una relación basada en principios bíblicos."
+    },
+    "cta": {
+        "title": "¿Listo para vivir una historia de amor con propósito?",
+        "subtitle": "Únete a miles de cristianos que ya han encontrado su pareja en nuestra app.",
+        "button": "Crear Cuenta Gratis"
+    },
+    "footer": {
+        "company_title": "Empresa",
+        "company_about": "Sobre Nosotros",
+        "company_contact": "Contacto",
+        "legal_title": "Legal",
+        "legal_terms": "Términos de Uso",
+        "legal_privacy": "Privacidad",
+        "legal_security": "Seguridad",
+        "legal_delete": "Eliminar Cuenta",
+        "rights": "© 2024 Par Cristiano. Todos los derechos reservados."
+    }
+}

@@ -111,6 +111,7 @@
         fbq('track', 'PageView');
     </script>
     <!-- End Meta Pixel Code -->
+    <script type="module" src="/i18n.js"></script>
 </head>
 
 <body>
@@ -128,17 +129,29 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo">
+            <div class="header-left-box">
+                <div class="lang-dropdown">
+                    <button class="lang-dropdown-btn" onclick="document.getElementById('langMenu').classList.toggle('show')">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" stroke="currentColor" stroke-width="2"/><path d="M2 12h20" stroke="currentColor" stroke-width="2"/></svg>
+                        <span id="currentLangLabel">PT</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+                    </button>
+                    <div class="lang-dropdown-menu" id="langMenu">
+                        <a href="/" class="lang-item" onclick="localStorage.setItem('i18nextLng', 'pt-BR')">🇧🇷 Português</a>
+                        <a href="/en/index.html" class="lang-item" onclick="localStorage.setItem('i18nextLng', 'en')">🇺🇸 English</a>
+                        <a href="/es/index.html" class="lang-item" onclick="localStorage.setItem('i18nextLng', 'es')">🇪🇸 Español</a>
+                    </div>
+                </div>
+                <a href="index.html" class="logo">
                 <img src="logo.png" alt="Par Cristão" class="logo-img">
             </a>
+            </div>
             <nav class="nav">
                 <a href="index.html">Início</a>
                 <a href="termos.html">Termos</a>
-                <a href="privacidade.html">Privacidade</a>
+                <a href="privacidade.html" data-i18n="footer.legal_privacy" data-i18n="footer.legal_privacy">Privacidade</a>
             </nav>
-            <a href="index.html#download" class="btn btn-glow mobile-hide">
-                <span>Baixar App</span>
-            </a>
+            
             <button class="mobile-menu" aria-label="Menu">
                 <span></span><span></span><span></span>
             </button>
@@ -165,8 +178,8 @@
                         <li>
                             <strong>Envie sua solicitação</strong>
                             <p>Clique no botão abaixo ou envie um e-mail diretamente para <a
-                                    href="mailto:coutodev7@gmail.com"
-                                    style="color: var(--accent);">coutodev7@gmail.com</a>.</p>
+                                    href="mailto:dualis.love.app@gmail.com"
+                                    style="color: var(--accent);">dualis.love.app@gmail.com</a>.</p>
                         </li>
                         <li>
                             <strong>Identificação</strong>
@@ -181,7 +194,7 @@
                     </ul>
 
                     <div style="text-align: center;">
-                        <a href="mailto:coutodev7@gmail.com?subject=Exclusão de Conta Par Cristão&body=Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: "
+                        <a href="mailto:dualis.love.app@gmail.com?subject=Exclusão de Conta Par Cristão&body=Olá, gostaria de solicitar a exclusão da minha conta. Meu e-mail cadastrado é: "
                             class="delete-btn">
                             Solicitar Exclusão por E-mail
                         </a>
@@ -226,10 +239,10 @@
                     <p>Conectando cristãos com amor e fé.</p>
                 </div>
                 <div class="footer-links">
-                    <a href="termos.html">Termos de Uso</a>
-                    <a href="privacidade.html">Privacidade</a>
+                    <a href="termos.html" data-i18n="footer.legal_terms" data-i18n="footer.legal_terms">Termos de Uso</a>
+                    <a href="privacidade.html" data-i18n="footer.legal_privacy" data-i18n="footer.legal_privacy">Privacidade</a>
                     <a href="seguranca.html">Segurança (CSAE)</a>
-                    <a href="mailto:coutodev7@gmail.com">Contato</a>
+                    <a href="mailto:dualis.love.app@gmail.com" data-i18n="footer.company_contact" data-i18n="footer.company_contact">Contato</a>
                 </div>
             </div>
             <div class="footer-bottom">
@@ -254,6 +267,28 @@
                 mobileMenu.classList.toggle('active');
             });
         }
+    </script>
+
+    
+    
+    <script id="closeDropdownScript">
+        // Close dropdown when clicking outside
+        window.addEventListener('click', function(e) {
+            if (!e.target.closest('.lang-dropdown')) {
+                var menu = document.getElementById('langMenu');
+                if (menu) menu.classList.remove('show');
+            }
+        });
+        // Set current language label based on URL path
+        (function() {
+            var p = window.location.pathname;
+            var label = document.getElementById('currentLangLabel');
+            if (label) {
+                if (p.indexOf('/en') === 0 || p.indexOf('/en/') >= 0) label.textContent = 'EN';
+                else if (p.indexOf('/es') === 0 || p.indexOf('/es/') >= 0) label.textContent = 'ES';
+                else label.textContent = 'PT';
+            }
+        })();
     </script>
 </body>
 

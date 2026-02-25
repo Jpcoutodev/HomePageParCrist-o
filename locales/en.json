@@ -1,0 +1,52 @@
+{
+    "header": {
+        "login": "Login",
+        "createAccount": "Create Free Account"
+    },
+    "hero": {
+        "badge": "Available for iOS and Android",
+        "title": "Christian Dating with Purpose",
+        "subtitle": "Connect with Christian singles who share your faith, values, and principles.",
+        "cta": "Create Free Account",
+        "downloadApp": "Download the App",
+        "users": "+100k",
+        "usersText": "Christians looking for a serious relationship",
+        "reviewsText": "1000 reviews"
+    },
+    "features": {
+        "badge": "Why the app?",
+        "title": "Made for Christians",
+        "f1_title": "Focus on Purpose",
+        "f1_desc": "Detailed profiles covering ministry, spiritual habits, and family vision.",
+        "f2_title": "Safe Environment",
+        "f2_desc": "Active moderation and profile verification to ensure a healthy space.",
+        "f3_title": "Real Connections",
+        "f3_desc": "Algorithm focused on compatibility of values and life purposes."
+    },
+    "howItWorks": {
+        "badge": "How it works?",
+        "title": "Find Your Christian Match",
+        "step1_title": "Create your profile",
+        "step1_desc": "Fill out your details, denomination, ministries, and what you're looking for.",
+        "step2_title": "Connect",
+        "step2_desc": "See compatible profiles, like, and send messages to those who touch your heart.",
+        "step3_title": "Grow Together",
+        "step3_desc": "Build a relationship based on biblical principles."
+    },
+    "cta": {
+        "title": "Ready to live a love story with purpose?",
+        "subtitle": "Join thousands of Christians who have already found their match on our app.",
+        "button": "Create Free Account"
+    },
+    "footer": {
+        "company_title": "Company",
+        "company_about": "About Us",
+        "company_contact": "Contact",
+        "legal_title": "Legal",
+        "legal_terms": "Terms of Use",
+        "legal_privacy": "Privacy Policy",
+        "legal_security": "Security",
+        "legal_delete": "Delete Account",
+        "rights": "© 2024 Christian Match. All rights reserved."
+    }
+}

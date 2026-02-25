@@ -4,10 +4,14 @@
     "private": true,
     "scripts": {
         "dev": "vite",
-        "build": "vite build",
+        "build": "vite build && node scripts/generate-i18n.js",
         "preview": "vite preview"
     },
     "devDependencies": {
         "vite": "^6.0.0"
+    },
+    "dependencies": {
+        "i18next": "^25.8.13",
+        "i18next-browser-languagedetector": "^8.2.1"
     }
 }

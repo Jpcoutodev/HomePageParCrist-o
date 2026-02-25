@@ -1,52 +1,90 @@
 {
-    "header": {
-        "login": "Login",
-        "createAccount": "Create Free Account"
-    },
     "hero": {
-        "badge": "Available for iOS and Android",
-        "title": "Christian Dating with Purpose",
-        "subtitle": "Connect with Christian singles who share your faith, values, and principles.",
-        "cta": "Create Free Account",
-        "downloadApp": "Download the App",
-        "users": "+100k",
-        "usersText": "Christians looking for a serious relationship",
-        "reviewsText": "1000 reviews"
+        "title": "Find your partner with the same <span class=\"gradient-text\">faith and purpose</span>",
+        "subtitle": "Connecting Christians around the world seeking a serious relationship based on faith and Christian values.",
+        "cta": "Download Now",
+        "scroll": "Scroll to discover"
     },
-    "features": {
-        "badge": "Why the app?",
-        "title": "Made for Christians",
-        "f1_title": "Focus on Purpose",
-        "f1_desc": "Detailed profiles covering ministry, spiritual habits, and family vision.",
-        "f2_title": "Safe Environment",
-        "f2_desc": "Active moderation and profile verification to ensure a healthy space.",
-        "f3_title": "Real Connections",
-        "f3_desc": "Algorithm focused on compatibility of values and life purposes."
+    "benefits": {
+        "tag": "Why choose us?",
+        "title": "Connect with Christians who <span class=\"gradient-text\">share your values</span>",
+        "b1_title": "Local and international Christian singles",
+        "b1_desc": "Find people in your city or connect with Christians around the world",
+        "b2_title": "Free registration to get started",
+        "b2_desc": "Create your profile and start meeting people for free with our free plan",
+        "b3_title": "Advanced messaging for meaningful conversations",
+        "b3_desc": "Features that make it easy to get to know someone in depth",
+        "b4_title": "Safe and faith-centered environment",
+        "b4_desc": "Moderated community focused on serious relationships"
     },
     "howItWorks": {
-        "badge": "How it works?",
-        "title": "Find Your Christian Match",
+        "tag": "3 Simple Steps",
+        "title": "How It <span class=\"gradient-text\">Works</span>",
+        "desc": "Start your journey on Christian Match now",
         "step1_title": "Create your profile",
-        "step1_desc": "Fill out your details, denomination, ministries, and what you're looking for.",
-        "step2_title": "Connect",
-        "step2_desc": "See compatible profiles, like, and send messages to those who touch your heart.",
-        "step3_title": "Grow Together",
-        "step3_desc": "Build a relationship based on biblical principles."
+        "step1_desc": "Sign up easily and add your best photos",
+        "step2_title": "Browse Christian profiles",
+        "step2_desc": "Browse profiles aligned with your faith and values",
+        "step3_title": "Start chatting",
+        "step3_desc": "Send messages or interests and start real connections",
+        "cta": "Get Started Now"
     },
-    "cta": {
-        "title": "Ready to live a love story with purpose?",
-        "subtitle": "Join thousands of Christians who have already found their match on our app.",
-        "button": "Create Free Account"
+    "denominations": {
+        "tag": "Your Community",
+        "title": "Christian <span class=\"gradient-text\">dating community</span>",
+        "desc": "Connect with Christians from your denomination:",
+        "d1_title": "Catholic",
+        "d1_desc": "Thousands of Catholics looking for connections",
+        "d2_title": "Evangelical",
+        "d2_desc": "Vibrant community of evangelicals",
+        "d3_title": "Orthodox",
+        "d3_desc": "Tradition and Eastern Christian faith",
+        "d4_title": "Other Denominations",
+        "d4_desc": "Baptist, Presbyterian, Lutheran and many others"
+    },
+    "features": {
+        "tag": "Features",
+        "title": "Everything For <span class=\"gradient-text\">Real Connections</span>",
+        "desc": "Safe, respectful environment designed for Christians",
+        "f1_title": "Values-Based Matching",
+        "f1_desc": "Smart algorithm that connects people with similar values and faith",
+        "f2_title": "Secure Chat",
+        "f2_desc": "Chat with peace of mind in a moderated and respectful environment",
+        "f3_title": "Verified Profiles",
+        "f3_desc": "Verification system to ensure real and committed people",
+        "f4_title": "Advanced Filters",
+        "f4_desc": "Search by denomination, age, location and interests"
+    },
+    "testimonials": {
+        "tag": "Success Stories",
+        "title": "Real people finding <span class=\"gradient-text\">true love</span>",
+        "desc": "We share stories of users who found their ideal match through Christian Match",
+        "rating": "Store Rating"
+    },
+    "download": {
+        "tag": "Start Today",
+        "title": "Get Started with the <span class=\"gradient-text\">Free Plan</span>",
+        "subtitle": "Download now and connect with amazing Christians from your denomination.",
+        "intro": "We believe love should be accessible. That's why with the <strong>Free Plan</strong> you get:",
+        "feature1_title": "10 \"Hellos\" per day",
+        "feature1_desc": "to start conversations with people you like.",
+        "feature2_title": "Browse 50 profiles daily",
+        "feature2_desc": "to find your match.",
+        "feature3_title": "Reveal 1 \"Like\" per day",
+        "feature3_desc": "(discover who liked you).",
+        "feature4_title": "Auto Renewal",
+        "feature4_desc": "After 24 hours, your limits renew.",
+        "playstore": "Available on",
+        "playstore_title": "Google Play",
+        "webapp": "Or access the",
+        "webapp_title": "Web Version"
     },
     "footer": {
-        "company_title": "Company",
-        "company_about": "About Us",
-        "company_contact": "Contact",
-        "legal_title": "Legal",
+        "tagline": "Connecting Christians with love and faith.",
         "legal_terms": "Terms of Use",
-        "legal_privacy": "Privacy Policy",
-        "legal_security": "Security",
-        "legal_delete": "Delete Account",
-        "rights": "© 2024 Christian Match. All rights reserved."
+        "legal_privacy": "Privacy",
+        "legal_security": "Security (CSAE)",
+        "company_contact": "Contact",
+        "rights": "© 2024 Christian Match. All rights reserved. Made with ❤️ and faith."
     }
 }

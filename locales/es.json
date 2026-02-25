@@ -1,52 +1,90 @@
 {
-    "header": {
-        "login": "Iniciar Sesión",
-        "createAccount": "Crear Cuenta Gratis"
-    },
     "hero": {
-        "badge": "Disponible para iOS y Android",
-        "title": "Citas Cristianas con Propósito",
-        "subtitle": "Conéctate con solteros cristianos que comparten tu fe, valores y principios.",
-        "cta": "Crear Cuenta Gratis",
-        "downloadApp": "Descarga la Aplicación",
-        "users": "+100k",
-        "usersText": "cristianos buscando una relación seria",
-        "reviewsText": "1000 reseñas"
+        "title": "Encuentra tu pareja con la misma <span class=\"gradient-text\">fe y propósito</span>",
+        "subtitle": "Conectando cristianos alrededor del mundo que buscan una relación seria basada en fe y valores cristianos.",
+        "cta": "Descarga Ahora",
+        "scroll": "Desplázate para descubrir"
     },
-    "features": {
-        "badge": "¿Por qué la aplicación?",
-        "title": "Hecho para Cristianos",
-        "f1_title": "Enfoque en el Propósito",
-        "f1_desc": "Perfiles detallados que cubren ministerio, hábitos espirituales y visión familiar.",
-        "f2_title": "Ambiente Seguro",
-        "f2_desc": "Moderación activa y verificación de perfiles para garantizar un espacio saludable.",
-        "f3_title": "Conexiones Reales",
-        "f3_desc": "Algoritmo enfocado en la compatibilidad de valores y propósitos de vida."
+    "benefits": {
+        "tag": "¿Por qué elegirnos?",
+        "title": "Conéctate con cristianos que <span class=\"gradient-text\">comparten tus valores</span>",
+        "b1_title": "Solteros cristianos locales e internacionales",
+        "b1_desc": "Encuentra personas de tu ciudad o conéctate con cristianos alrededor del mundo",
+        "b2_title": "Registro gratuito para comenzar",
+        "b2_desc": "Crea tu perfil y comienza a conocer personas gratis con nuestro plan inicial",
+        "b3_title": "Mensajes avanzados para conversaciones significativas",
+        "b3_desc": "Funciones que facilitan conocer a alguien en profundidad",
+        "b4_title": "Ambiente seguro y centrado en la fe",
+        "b4_desc": "Comunidad moderada con enfoque en relaciones serias"
     },
     "howItWorks": {
-        "badge": "¿Cómo funciona?",
-        "title": "Encuentra tu Pareja Cristiana",
+        "tag": "3 Pasos Simples",
+        "title": "Cómo <span class=\"gradient-text\">Funciona</span>",
+        "desc": "Comienza tu viaje en Par Cristiano ahora mismo",
         "step1_title": "Crea tu perfil",
-        "step1_desc": "Completa tus datos, denominación, ministerios y lo que buscas.",
-        "step2_title": "Conéctate",
-        "step2_desc": "Mira perfiles compatibles, da me gusta y envía mensajes a quienes toquen tu corazón.",
-        "step3_title": "Crezcan Juntos",
-        "step3_desc": "Construye una relación basada en principios bíblicos."
+        "step1_desc": "Regístrate fácilmente y agrega tus mejores fotos",
+        "step2_title": "Mira perfiles cristianos",
+        "step2_desc": "Navega por perfiles alineados con tu fe y valores",
+        "step3_title": "Comienza a conversar",
+        "step3_desc": "Envía mensajes o intereses e inicia conexiones reales",
+        "cta": "Comenzar Ahora"
     },
-    "cta": {
-        "title": "¿Listo para vivir una historia de amor con propósito?",
-        "subtitle": "Únete a miles de cristianos que ya han encontrado su pareja en nuestra app.",
-        "button": "Crear Cuenta Gratis"
+    "denominations": {
+        "tag": "Tu Comunidad",
+        "title": "Comunidad de <span class=\"gradient-text\">citas cristianas</span>",
+        "desc": "Conéctate con cristianos de tu denominación:",
+        "d1_title": "Católica",
+        "d1_desc": "Miles de católicos buscando conexiones",
+        "d2_title": "Evangélica",
+        "d2_desc": "Comunidad vibrante de evangélicos",
+        "d3_title": "Ortodoxa",
+        "d3_desc": "Tradición y fe cristiana oriental",
+        "d4_title": "Otras Denominaciones",
+        "d4_desc": "Bautista, Presbiteriana, Luterana y muchas otras"
+    },
+    "features": {
+        "tag": "Funcionalidades",
+        "title": "Todo Para <span class=\"gradient-text\">Conexiones Reales</span>",
+        "desc": "Ambiente seguro, respetuoso y diseñado para cristianos",
+        "f1_title": "Coincidencia por Valores",
+        "f1_desc": "Algoritmo inteligente que conecta personas con valores y fe similares",
+        "f2_title": "Chat Seguro",
+        "f2_desc": "Conversa con tranquilidad en un ambiente moderado y respetuoso",
+        "f3_title": "Perfiles Verificados",
+        "f3_desc": "Sistema de verificación para garantizar personas reales y comprometidas",
+        "f4_title": "Filtros Avanzados",
+        "f4_desc": "Busca por denominación, edad, ubicación e intereses"
+    },
+    "testimonials": {
+        "tag": "Historias de Éxito",
+        "title": "Personas reales encontrando <span class=\"gradient-text\">amor verdadero</span>",
+        "desc": "Compartimos historias de usuarios que encontraron su pareja ideal a través de Par Cristiano",
+        "rating": "Calificación en la Tienda"
+    },
+    "download": {
+        "tag": "Comienza Hoy",
+        "title": "Inicia con el <span class=\"gradient-text\">Plan Gratuito</span>",
+        "subtitle": "Descarga ahora y conéctate con cristianos increíbles de tu denominación.",
+        "intro": "Creemos que el amor debe ser accesible. Por eso, con el <strong>Plan Gratuito</strong> tienes:",
+        "feature1_title": "10 \"Holas\" por día",
+        "feature1_desc": "para iniciar conversaciones con quien te gustó.",
+        "feature2_title": "Ver 50 perfiles diariamente",
+        "feature2_desc": "para encontrar tu pareja.",
+        "feature3_title": "Revelar 1 \"Me gusta\" por día",
+        "feature3_desc": "(descubrir quién te gustó).",
+        "feature4_title": "Renovación Automática",
+        "feature4_desc": "Después de 24 horas, tus límites se renuevan.",
+        "playstore": "Disponible en",
+        "playstore_title": "Google Play",
+        "webapp": "O accede a la",
+        "webapp_title": "Versión Web"
     },
     "footer": {
-        "company_title": "Empresa",
-        "company_about": "Sobre Nosotros",
-        "company_contact": "Contacto",
-        "legal_title": "Legal",
+        "tagline": "Conectando cristianos con amor y fe.",
         "legal_terms": "Términos de Uso",
         "legal_privacy": "Privacidad",
-        "legal_security": "Seguridad",
-        "legal_delete": "Eliminar Cuenta",
-        "rights": "© 2024 Par Cristiano. Todos los derechos reservados."
+        "legal_security": "Seguridad (CSAE)",
+        "company_contact": "Contacto",
+        "rights": "© 2024 Par Cristiano. Todos los derechos reservados. Hecho con ❤️ y fe."
     }
 }

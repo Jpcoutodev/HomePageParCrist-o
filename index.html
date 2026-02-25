@@ -570,16 +570,39 @@
         // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(a => {
             a.addEventListener('click', e => {
+                const href = a.getAttribute('href');
+                // Skip empty anchors or just '#'
+                if (!href || href === '#') return;
+
                 e.preventDefault();
-                const target = document.querySelector(a.getAttribute('href'));
+                const target = document.querySelector(href);
                 if (target) target.scrollIntoView({ behavior: 'smooth' });
             });
         });
 
-        // Header scroll
+        // Header scroll with auto-hide on mobile
         const header = document.querySelector('.header');
+        let lastScrollTop = 0;
+        let scrollTimeout;
+
         window.addEventListener('scroll', () => {
-            header.classList.toggle('scrolled', window.scrollY > 50);
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            // Add scrolled class when past 50px
+            header.classList.toggle('scrolled', scrollTop > 50);
+
+            // Auto-hide on scroll down (mobile optimization)
+            clearTimeout(scrollTimeout);
+            scrollTimeout = setTimeout(() => {
+                if (scrollTop > lastScrollTop && scrollTop > 100) {
+                    // Scrolling down & past 100px
+                    header.classList.add('header-hidden');
+                } else {
+                    // Scrolling up
+                    header.classList.remove('header-hidden');
+                }
+                lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+            }, 100);
         });
 
         // Animate numbers

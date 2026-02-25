@@ -54,15 +54,20 @@ function updateLanguageLabel() {
 
 // Function to change language
 const changeLanguage = (lng) => {
+  console.log('🌐 changeLanguage called with:', lng);
+  console.log('🌐 i18next initialized:', i18next.isInitialized);
+
   if (i18next.isInitialized) {
     i18next.changeLanguage(lng).then(() => {
+      console.log('✅ Language changed to:', i18next.language);
       updateContent();
       updateLanguageLabel();
     });
   } else {
-    // If not initialized yet, wait for it
+    console.log('⏳ Waiting for i18next to initialize...');
     i18next.on('initialized', () => {
       i18next.changeLanguage(lng).then(() => {
+        console.log('✅ Language changed to:', i18next.language);
         updateContent();
         updateLanguageLabel();
       });

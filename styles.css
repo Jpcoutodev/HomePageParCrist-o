@@ -121,6 +121,11 @@ body {
     border-bottom: 1px solid var(--glass-border);
 }
 
+.header.header-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;

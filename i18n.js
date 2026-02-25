@@ -14,7 +14,7 @@ i18next
       en: { translation: en },
       es: { translation: es }
     },
-    fallbackLng: 'pt-BR',
+    fallbackLng: 'en', // Changed to English as fallback
     supportedLngs: ['pt-BR', 'en', 'es'],
     detection: {
       order: ['querystring', 'localStorage', 'htmlTag', 'path', 'navigator'],
@@ -22,21 +22,43 @@ i18next
     }
   }).then(() => {
     updateContent();
+    updateLanguageLabel();
   });
 
 function updateContent() {
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const key = element.getAttribute('data-i18n');
-    element.innerHTML = i18next.t(key);
+    const translation = i18next.t(key);
+    if (translation && translation !== key) {
+      element.innerHTML = translation;
+    }
   });
 
   // Set html lang attribute
   document.documentElement.lang = i18next.language;
 }
 
-// Export for manual language switching if needed somewhere else (dev only)
+function updateLanguageLabel() {
+  const label = document.getElementById('currentLangLabel');
+  if (label) {
+    const currentLang = i18next.language;
+    if (currentLang === 'pt-BR' || currentLang === 'pt') {
+      label.textContent = 'PT';
+    } else if (currentLang === 'en') {
+      label.textContent = 'EN';
+    } else if (currentLang === 'es') {
+      label.textContent = 'ES';
+    }
+  }
+}
+
+// Function to change language
 export const changeLanguage = (lng) => {
   i18next.changeLanguage(lng).then(() => {
     updateContent();
+    updateLanguageLabel();
   });
 };
+
+// Make it globally available
+window.changeLanguage = changeLanguage;

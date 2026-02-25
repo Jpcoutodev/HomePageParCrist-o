@@ -107,9 +107,9 @@
                         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
                     </button>
                     <div class="lang-dropdown-menu" id="langMenu">
-                        <a href="/" class="lang-item" onclick="localStorage.setItem('i18nextLng', 'pt-BR')">🇧🇷 Português</a>
-                        <a href="/en/index.html" class="lang-item" onclick="localStorage.setItem('i18nextLng', 'en')">🇺🇸 English</a>
-                        <a href="/es/index.html" class="lang-item" onclick="localStorage.setItem('i18nextLng', 'es')">🇪🇸 Español</a>
+                        <a href="#" class="lang-item" onclick="event.preventDefault(); window.changeLanguage('pt-BR'); document.getElementById('langMenu').classList.remove('show');">🇧🇷 Português</a>
+                        <a href="#" class="lang-item" onclick="event.preventDefault(); window.changeLanguage('en'); document.getElementById('langMenu').classList.remove('show');">🇺🇸 English</a>
+                        <a href="#" class="lang-item" onclick="event.preventDefault(); window.changeLanguage('es'); document.getElementById('langMenu').classList.remove('show');">🇪🇸 Español</a>
                     </div>
                 </div>
                 <a href="index.html" class="logo">
@@ -223,16 +223,6 @@
                 if (menu) menu.classList.remove('show');
             }
         });
-        // Set current language label based on URL path
-        (function() {
-            var p = window.location.pathname;
-            var label = document.getElementById('currentLangLabel');
-            if (label) {
-                if (p.indexOf('/en') === 0 || p.indexOf('/en/') >= 0) label.textContent = 'EN';
-                else if (p.indexOf('/es') === 0 || p.indexOf('/es/') >= 0) label.textContent = 'ES';
-                else label.textContent = 'PT';
-            }
-        })();
     </script>
 </body>
 

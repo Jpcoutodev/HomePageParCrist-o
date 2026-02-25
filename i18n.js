@@ -14,7 +14,7 @@ i18next
       en: { translation: en },
       es: { translation: es }
     },
-    fallbackLng: 'en', // Changed to English as fallback
+    fallbackLng: 'pt-BR', // Portuguese as fallback
     supportedLngs: ['pt-BR', 'en', 'es'],
     detection: {
       order: ['querystring', 'localStorage', 'htmlTag', 'path', 'navigator'],

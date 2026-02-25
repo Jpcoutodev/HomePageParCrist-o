@@ -53,12 +53,25 @@ function updateLanguageLabel() {
 }
 
 // Function to change language
-export const changeLanguage = (lng) => {
-  i18next.changeLanguage(lng).then(() => {
-    updateContent();
-    updateLanguageLabel();
-  });
+const changeLanguage = (lng) => {
+  if (i18next.isInitialized) {
+    i18next.changeLanguage(lng).then(() => {
+      updateContent();
+      updateLanguageLabel();
+    });
+  } else {
+    // If not initialized yet, wait for it
+    i18next.on('initialized', () => {
+      i18next.changeLanguage(lng).then(() => {
+        updateContent();
+        updateLanguageLabel();
+      });
+    });
+  }
 };
 
-// Make it globally available
+// Make it globally available immediately
 window.changeLanguage = changeLanguage;
+
+// Export for module usage
+export { changeLanguage };

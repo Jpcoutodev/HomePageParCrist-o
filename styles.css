@@ -1524,31 +1524,49 @@ body {
     font-size: 1rem;
 }
 
-.store-btn.featured {
+.store-btn.android {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    border: none;
+    padding: 1rem 2rem;
+    box-shadow: 0 10px 30px rgba(16, 185, 129, 0.4);
+}
+
+.store-btn.android:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 40px rgba(16, 185, 129, 0.6);
+}
+
+.store-btn.android small,
+.store-btn.android strong,
+.store-btn.android svg {
+    color: white;
+}
+
+.store-btn.webapp {
     background: var(--gradient);
     border: none;
     padding: 1rem 2rem;
     box-shadow: 0 10px 30px rgba(99, 102, 241, 0.4);
 }
 
-.store-btn.featured:hover {
+.store-btn.webapp:hover {
     transform: translateY(-3px);
     box-shadow: 0 15px 40px rgba(99, 102, 241, 0.6);
 }
 
-.store-btn.featured small,
-.store-btn.featured strong,
-.store-btn.featured svg {
+.store-btn.webapp small,
+.store-btn.webapp strong,
+.store-btn.webapp svg {
     color: white;
 }
 
-.store-btn.secondary {
+.store-btn.ios {
     background: transparent;
     border: 1px solid var(--glass-border);
     opacity: 0.8;
 }
 
-.store-btn.secondary:hover {
+.store-btn.ios:hover {
     background: var(--glass);
     border-color: var(--text-muted);
     opacity: 1;

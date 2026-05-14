@@ -89,10 +89,12 @@
         "feature3_desc": "(descobrir quem curtiu você).",
         "feature4_title": "Renovação Automática",
         "feature4_desc": "Após 24 horas, seus limites se renovam.",
-        "playstore": "Disponível no",
+        "playstore": "Disponível no Android",
         "playstore_title": "Google Play",
-        "webapp": "Ou acesse a",
-        "webapp_title": "Versão Web"
+        "webapp": "Usar no",
+        "webapp_title": "Computador",
+        "ios": "Disponível no iOS",
+        "ios_title": "iPhone / iPad"
     },
     "footer": {
         "tagline": "Conectando cristãos com amor e fé.",

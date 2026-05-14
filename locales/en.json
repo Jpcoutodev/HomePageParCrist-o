@@ -89,10 +89,12 @@
         "feature3_desc": "(discover who liked you).",
         "feature4_title": "Auto Renewal",
         "feature4_desc": "After 24 hours, your limits renew.",
-        "playstore": "Available on",
+        "playstore": "Available on Android",
         "playstore_title": "Google Play",
-        "webapp": "Or access the",
-        "webapp_title": "Web Version"
+        "webapp": "Use on",
+        "webapp_title": "Computer",
+        "ios": "Available on iOS",
+        "ios_title": "iPhone / iPad"
     },
     "footer": {
         "tagline": "Connecting Christians with love and faith.",

@@ -100,6 +100,7 @@
         "legal_privacy": "Privacidad",
         "legal_security": "Seguridad (CSAE)",
         "company_contact": "Contacto",
+        "company_email": "dualis.love.app@gmail.com",
         "rights": "© 2024 Par Cristiano. Todos los derechos reservados. Hecho con ❤️ y fe."
     },
     "legal": {
@@ -136,7 +137,7 @@
         "s6b_title": "6.1. Eliminación de Datos Remota",
         "s6b_text": "Si usted ya no tiene acceso a la aplicación y desea eliminar permanentemente su cuenta y todos los datos asociados, puede solicitar la eliminación enviando un correo electrónico a <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a> con el asunto <strong>\"Eliminación de Cuenta\"</strong>. La solicitud debe enviarse desde la misma dirección de correo utilizada en el registro original. Su cuenta y datos serán eliminados permanentemente en un plazo de 7 días hábiles tras la confirmación de identidad.",
         "s7_title": "7. Encargado de Protección de Datos (DPO)",
-        "s7_text": "En conformidad con la Ley General de Protección de Datos (Ley nº 13.709/2018 — LGPD), informamos que dudas, solicitudes o reclamaciones relacionadas con el tratamiento de sus datos personales pueden ser dirigidas a nuestro Encargado de Protección de Datos (DPO) por correo electrónico: <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>.",
+        "s7_text": "En conformidad con la Ley General de Protección de Datos (Ley nº 13.709/2018 — LGPD), informamos que dudas, solicitudes o reclamaciones relacionadas con el tratamiento de sus datos personales pueden ser dirigidas a nuestro Encargado de Protección de Datos (DPO), João Paulo do Couto, por correo electrónico: <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>.",
         "s8_title": "8. Cambios en esta Política",
         "s8_text": "Podemos actualizar esta política periódicamente. Le notificaremos sobre cambios significativos a través de la aplicación."
     },
@@ -161,6 +162,6 @@
         "s7_title": "7. Modificaciones del Servicio",
         "s7_text": "Nos reservamos el derecho de modificar o descontinuar el servicio en cualquier momento, temporal o permanentemente, con o sin previo aviso.",
         "s8_title": "8. Contacto",
-        "s8_text": "Si tiene dudas sobre estos términos, contáctenos a través de los canales oficiales de la aplicación o por el correo del Encargado de Protección de Datos (DPO): <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>."
+        "s8_text": "Si tiene dudas sobre estos términos, contáctenos a través de los canales oficiales de la aplicación o por el correo del Encargado de Protección de Datos (DPO), João Paulo do Couto: <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>."
     }
 }

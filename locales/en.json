@@ -100,6 +100,7 @@
         "legal_privacy": "Privacy",
         "legal_security": "Security (CSAE)",
         "company_contact": "Contact",
+        "company_email": "dualis.love.app@gmail.com",
         "rights": "© 2024 Christian Match. All rights reserved. Made with ❤️ and faith."
     },
     "legal": {
@@ -136,7 +137,7 @@
         "s6b_title": "6.1. Remote Data Deletion",
         "s6b_text": "If you no longer have access to the app and wish to permanently delete your account and all associated data, you can request deletion by sending an email to <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a> with the subject <strong>\"Account Deletion\"</strong>. The request must be sent from the same email address used in the original registration. Your account and data will be permanently removed within 7 business days after identity confirmation.",
         "s7_title": "7. Data Protection Officer (DPO)",
-        "s7_text": "In compliance with the General Data Protection Law (Lei nº 13.709/2018 — LGPD), we inform that questions, requests or complaints related to the processing of your personal data may be directed to our Data Protection Officer (DPO) at: <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>.",
+        "s7_text": "In compliance with the General Data Protection Law (Lei nº 13.709/2018 — LGPD), we inform that questions, requests or complaints related to the processing of your personal data may be directed to our Data Protection Officer (DPO), João Paulo do Couto, at: <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>.",
         "s8_title": "8. Changes to this Policy",
         "s8_text": "We may update this policy periodically. We will notify you of significant changes through the app."
     },
@@ -161,6 +162,6 @@
         "s7_title": "7. Service Modifications",
         "s7_text": "We reserve the right to modify or discontinue the service at any time, temporarily or permanently, with or without notice.",
         "s8_title": "8. Contact",
-        "s8_text": "If you have questions about these terms, contact us through the app's official channels or via the Data Protection Officer (DPO) email: <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>."
+        "s8_text": "If you have questions about these terms, contact us through the app's official channels or via the Data Protection Officer (DPO), João Paulo do Couto, email: <a href=\"mailto:dualis.love.app@gmail.com\" style=\"color: var(--accent);\">dualis.love.app@gmail.com</a>."
     }
 }
